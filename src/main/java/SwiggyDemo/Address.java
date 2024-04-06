@@ -13,4 +13,14 @@ public class Address {
         this.hNo = hNo;
         this.pincode = pincode;
     }
+
+    @Override
+    public String toString() {
+        return "Address{" +
+                "area='" + area + '\'' +
+                ", street='" + street + '\'' +
+                ", hNo='" + hNo + '\'' +
+                ", pincode='" + pincode + '\'' +
+                '}';
+    }
 }
